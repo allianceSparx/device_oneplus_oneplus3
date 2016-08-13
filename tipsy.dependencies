@@ -15,6 +15,11 @@
     "branch": "mm6.0"
   },
   {
+    "repository": "SlimRoms/vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
+    "branch": "mm6.0"
+  },
+  {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
     "branch": "mm6.0"
