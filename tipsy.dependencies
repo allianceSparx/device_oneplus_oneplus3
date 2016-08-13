@@ -5,9 +5,9 @@
     "branch": "mm6.0"
   },
   {
-    "repository": "SlimRoms/kernel_oneplus_msm8996",
+    "repository": "GZR-Kernels/kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
-    "branch": "mm6.0"
+    "branch": "toxic"
   },
   {
     "repository": "SlimRoms/android_external_stlport",
