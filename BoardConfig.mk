@@ -74,22 +74,22 @@ TARGET_KERNEL_CONFIG := cyanogenmod_oneplus3_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Optimizations
-STRICT_ALIASING := true
-CLANG_O3 := true
+STRICT_ALIASING := false
+CLANG_O3 := false
 ENABLE_GCCONLY := false
 GRAPHITE_OPTS := false
-USE_PIPE := true  
-ENABLE_SANITIZE := true
-CORTEX_TUNINGS := true
-POLLY_OPTIMIZATION := true
-ENABLE_PTHREAD := true
-ENABLE_IPA ANALYSER := true
-ENABLE_GOMP := true
-ENABLE_EXTRAGCC := true
+USE_PIPE := false
+ENABLE_SANITIZE := false
+CORTEX_TUNINGS := false
+POLLY_OPTIMIZATION := false
+ENABLE_PTHREAD := false
+ENABLE_IPA ANALYSER := false
+ENABLE_GOMP := false
+ENABLE_EXTRAGCC := false
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
