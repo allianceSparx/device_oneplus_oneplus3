@@ -30,7 +30,6 @@ ro.cutoff_voltage_mv=3250
 
 # Bluetooth
 bt.max.hfpclient.connections=1
-persist.bt.enableAptXHD=true
 qcom.bluetooth.soc=rome
 
 # Camera
@@ -145,7 +144,7 @@ persist.timed.enable=true
 wifi.interface=wlan0
 
 # ADB at boot
-persist.service.adb.enable=1                                                    
+persist.service.adb.enable=1
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
 
