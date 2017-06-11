@@ -31,3 +31,6 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 TARGET_VENDOR := oneplus
+
+# Root Method
+DEFAULT_ROOT_METHOD := rootless
