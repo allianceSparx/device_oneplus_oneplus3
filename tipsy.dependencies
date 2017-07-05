@@ -2,12 +2,12 @@
   {
     "repository": "TipsyOs-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "n7.1"
+    "branch": "test"
   },
   {
     "repository": "GZR-Kernels/kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
-    "branch": "test"
+    "branch": "n7.1"
   },
   {
     "repository": "SlimRoms/hardware_cyanogen",
@@ -17,7 +17,7 @@
   {
     "repository": "BigTopKrazies/vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "test"
+    "branch": "n7.1"
   },
   {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_frameworks",
