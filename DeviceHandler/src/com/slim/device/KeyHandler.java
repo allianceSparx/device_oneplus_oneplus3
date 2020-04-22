@@ -49,8 +49,8 @@ import com.slim.device.settings.SliderSettings;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.gzosp.ActionConstants;
-import com.android.internal.util.gzosp.Action;
+import com.slim.device.util.ActionConstants;
+import com.slim.device.util.Action;
 
 public class KeyHandler implements DeviceKeyHandler {
 
